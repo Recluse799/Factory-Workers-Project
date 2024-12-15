@@ -2,7 +2,8 @@
 
 
 
-#pragma once // remember, can use #ifndef EMPLOYEE_H , #define EMPLOYEE_H, #endif // EMPLOYEE_H
+#pragma once // only in header file, not implelmentation,  remember, can use #ifndef EMPLOYEE_H , 
+//#define EMPLOYEE_H, #endif // EMPLOYEE_H for guaranteed commpatibility, no ambiguity no file dependency
 
 #include <string>
 #include <iostream>
